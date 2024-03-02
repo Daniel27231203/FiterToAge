@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.allBlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  gap: 40px;
+}
+
+.inpBox {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  background: floralwhite;
+  border: 1px solid black;
+  border-radius: 15px;
+  gap: 20px;
+  width: 400px;
+}
+.inpBox input {
+  outline: none;
+  border: 1px solid black;
+  background: gold;
+  padding: 7px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.inpBox button {
+  padding: 10px 30px;
+  background: aqua;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.inpBox button:hover {
+  outline: 1px solid red;
+}
+.box {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  overflow-y: scroll;
+  width: 400px;
+  height: 300px;
+  background: aquamarine;
+  border-radius: 15px;
+}
+
+.box::-webkit-scrollbar {
+  display: none;
+}
+
+.boxInBox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.workersList {
+  display: flex;
+  /* align-items: center; */
+  padding: 20px;
+  flex-direction: column;
+  overflow-y: scroll;
+  width: 400px;
+  height: 265px;
+  background: aquamarine;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  gap: 20px;
+}
+.workersList::-webkit-scrollbar {
+  display: none;
+}
+.boxInList {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.red {
+  color: red;
+}
+.block {
+  display: flex;
+  gap: 50px;
+}
+h1 {
+  background: rgb(146, 106, 26);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding: 0px 10px;
+}
